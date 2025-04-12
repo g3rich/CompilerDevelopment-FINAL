@@ -62,9 +62,6 @@ public class Token {
             Object value = identifierID;
             return new Token(type, value, identifierID);
         }
-        //Object value = readValue(reader);                                    // Читаем значение
-        //int identifierID = reader.readInt();                                // Читаем identifierID
-        //return new Token(type, null, identifierID);
     }
 
     // Метод для записи значения (динамического типа)
